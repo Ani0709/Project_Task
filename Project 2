@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# internsctl cpu getinfo
+internsctl cpu getinfo
+
+# man internsctl
+man internsctl
+
+# internsctl --help
+internsctl --help
+
+# internsctl --version
+internsctl --version
+
+# internsctl user create <username>
+internsctl user create <username>
+
+# internsctl user list
+internsctl user list
+
+# internsctl user list --sudo-only
+internsctl user list --sudo-only
+
+# internsctl file getinfo <file-name>
+internsctl file getinfo hello.txt
+
+# internsctl file getinfo [options] <file-name>
+internsctl file getinfo --size hello.txt
+
+# internsctl file getinfo --permissions hello.txt
+internsctl file getinfo --permissions hello.txt
+
+# internsctl file getinfo --owner hello.txt
+internsctl file getinfo --owner hello.txt
+
+# internsctl file getinfo --last-modified hello.txt
+internsctl file getinfo --last-modified hello.txt
